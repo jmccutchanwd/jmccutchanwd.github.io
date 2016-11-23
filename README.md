@@ -4,7 +4,7 @@
 
 ## Mockups
 
-![Mockups](https://jmccutchanwd.github.io/home-mockup.html)
+[Mockups](https://jmccutchanwd.github.io/home-mockup.html)
 
 ***
 
