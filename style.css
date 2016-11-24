@@ -18,6 +18,10 @@ Project built for NSS Dev Course.
 .navbar{
 	margin-bottom: 0;
 }
+.two-col-img{
+	width:100%;
+	height:auto;
+}
 
 
 /*--- END Structure ---*/
@@ -41,12 +45,8 @@ h1{
 	color:rgba(41, 128, 185,1.0);
 }
 .jumbotron{
-	/*height: 900px;*/
-  	background-position:0 20px;
-  	/*background-repeat: no-repeat;
-  	background-attachment: fixed;
-  	background-size: cover;*/
-	background-image: url("images/nashville.png");
+	background-image: url("images/nashville.png");/* add parallax */
+	background-size:cover;
 	
 }
 
@@ -66,9 +66,7 @@ h1{
 		height:auto;
 	}
 	.jumbotron{
-		background-position:initial;
-		background-attachment:initial;
-		background-size:cover;
+		background-size:cover;/* fix this */
 	}
 }
 
