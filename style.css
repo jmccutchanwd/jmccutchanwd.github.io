@@ -26,7 +26,13 @@ Project built for NSS Dev Course.
 	display: block;
 	margin: auto;
 }
-
+.jumbotron{ /*--- Parallax Image ---*/
+	height: 600px;
+  	background-position: 50% 50%;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
 
 /*--- END Structure ---*/
 
@@ -50,8 +56,6 @@ h1{
 }
 .jumbotron{
 	background-image: url("images/nashville.png");/* add parallax */
-	background-size:cover;
-	
 }
 
 /*--- END Skin ---*/
@@ -65,13 +69,25 @@ h1{
 /*--- Break Points ---*/
 
 @media (max-width: 776px) {
+	
+	/*--- Structure ---*/
+
 	.logo{
 		width:100px;
 		height:auto;
 	}
 	.jumbotron{
-		background-size:cover;/* fix this */
+		height: 300px;
+  		background-position: left top;
+	  	background-repeat: no-repeat;
+	  	background-attachment: initial;
+	  	background-size: cover;
 	}
+
+	/*--- END Structure ---*/
+
+	/*--- Skin ---*/
+	/*--- END Skin ---*/
 }
 
 
