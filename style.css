@@ -41,8 +41,13 @@ h1{
 	color:rgba(41, 128, 185,1.0);
 }
 .jumbotron{
-	background-image: url("images/nashville.png") /*rgba(127, 140, 141,1.0)*/;
-	background-position:center center;
+	/*height: 900px;*/
+  	background-position:0 20px;
+  	/*background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;*/
+	background-image: url("images/nashville.png");
+	
 }
 
 /*--- END Skin ---*/
@@ -59,7 +64,12 @@ h1{
 	.logo{
 		width:100px;
 		height:auto;
-}
+	}
+	.jumbotron{
+		background-position:initial;
+		background-attachment:initial;
+		background-size:cover;
+	}
 }
 
 
