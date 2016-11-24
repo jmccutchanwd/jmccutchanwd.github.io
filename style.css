@@ -8,6 +8,10 @@ Project built for NSS Dev Course.
 
 /*--- Structure ---*/
 
+body{
+	background-color: black;
+	color:rgba(189, 195, 199,1.0);
+}
 .logo{
 	width:150px;
 	height:auto;
@@ -24,7 +28,9 @@ Project built for NSS Dev Course.
 }
 .img-center{
 	display: block;
-	margin: auto;
+	width:25%;
+	margin:auto;
+	padding-top: 20px;
 }
 .jumbotron{ /*--- Parallax Image ---*/
 	height: 500px;
@@ -33,31 +39,36 @@ Project built for NSS Dev Course.
   	background-attachment: fixed;
   	background-size: cover;
 }
+.footer{
+	height: 150px;
+}
+h4{
+	line-height: 150px;
+}
 
 /*--- END Structure ---*/
 
 
 /*--- Skin ---*/
 
-/*.navbar-default{
+.navbar-default{
 	background-image: linear-gradient(to bottom,rgba(241, 196, 15,1.0) 0,rgba(192, 57, 43,1.0));
 	border:none;
 	border-radius:0;
-}*/
-/*.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
 	background-image: linear-gradient(to bottom, #e2e2e2 0, rgba(211, 84, 0,1.0) 100%);
 	color:rgba(41, 128, 185,1.0);
-}*/
-.jumbotron h1{
-	color:rgba(192, 57, 43,1.0);
 }
-/*.navbar-default .navbar-nav>li>a{
+.navbar-default .navbar-nav>li>a{
 	color:rgba(41, 128, 185,1.0);
-}*/
-.jumbotron{
-	background-image: url("images/nashville.png");/* add parallax */
 }
-
+.jumbotron{
+	background-image: url("images/nashville-traffic.png");/* add parallax */
+}
+.horizontal-line{
+	border-top:5px solid rgba(41, 128, 185,1.0);
+}
 /*--- END Skin ---*/
 
 
@@ -90,5 +101,5 @@ Project built for NSS Dev Course.
 	/*--- END Skin ---*/
 }
 
-
+/*rgba(18, 124, 180, 1)*/
 
