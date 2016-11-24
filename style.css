@@ -22,6 +22,10 @@ Project built for NSS Dev Course.
 	width:100%;
 	height:auto;
 }
+.img-center{
+	display: block;
+	margin: auto;
+}
 
 
 /*--- END Structure ---*/
