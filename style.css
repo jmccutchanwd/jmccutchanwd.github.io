@@ -13,7 +13,7 @@ body{
 	color:rgba(189, 195, 199,1.0);
 }
 .logo{
-	width:150px;
+	width:120px;
 	height:auto;
 }
 .mockup{
@@ -25,6 +25,9 @@ body{
 .img-width{
 	width:100%;
 	height:auto;
+}
+.top-margin{
+	margin-top: 20px;
 }
 .img-center{
 	display: block;
@@ -84,7 +87,7 @@ h4{
 	/*--- Structure ---*/
 
 	.logo{
-		width:100px;
+		width:70px;
 		height:auto;
 	}
 	.jumbotron{
