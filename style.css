@@ -48,6 +48,10 @@ body{
 h4{
 	line-height: 150px;
 }
+.media-object{
+	width:64px;
+	height: auto;
+}
 
 /*--- END Structure ---*/
 
