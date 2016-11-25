@@ -8,10 +8,7 @@ Project built for NSS Dev Course.
 
 /*--- Structure ---*/
 
-body{
-	background-color: black;
-	color:rgba(189, 195, 199,1.0);
-}
+
 .logo{
 	width:120px;
 	height:auto;
@@ -29,6 +26,14 @@ body{
 .top-margin{
 	margin-top: 20px;
 }
+.margin-zero{
+	margin:0;
+	display: block;
+}
+.media{
+	margin-top: 40px;
+	border-bottom: 2px solid;
+}
 .img-center{
 	display: block;
 	width:25%;
@@ -43,7 +48,7 @@ body{
   	background-size: cover;
 }
 .footer{
-	height: 150px;
+	height: 100px;
 }
 h4{
 	line-height: 150px;
@@ -58,6 +63,10 @@ h4{
 
 /*--- Skin ---*/
 
+body{
+	background-color: black;
+	color:rgba(189, 195, 199,1.0);
+}
 .navbar-default{
 	background-image: linear-gradient(to bottom,rgba(241, 196, 15,1.0) 0,rgba(192, 57, 43,1.0));
 	border:none;
@@ -74,7 +83,11 @@ h4{
 	background-image: url("images/nashville-traffic.png");/* add parallax */
 }
 .horizontal-line{
-	border-top:5px solid rgba(41, 128, 185,1.0);
+	border-top:2px solid rgba(41, 128, 185,1.0);
+}
+h1, h2, h3, h4{
+	font-family: courier;
+	color:rgba(231, 76, 60,1.0);
 }
 /*--- END Skin ---*/
 
