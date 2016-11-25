@@ -34,6 +34,10 @@ Project built for NSS Dev Course.
 	margin-top: 40px;
 	padding-bottom: 30px;
 }
+.img-height{
+	height:120px;
+	width:auto;
+}
 .img-center{
 	display: block;
 	width:25%;
