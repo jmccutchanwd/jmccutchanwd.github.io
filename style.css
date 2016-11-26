@@ -44,7 +44,27 @@ Project built for NSS Dev Course.
 	margin:auto;
 	padding-top: 20px;
 }
-.jumbotron{ /*--- Parallax Image ---*/
+.img-center-lg{
+	display: block;
+	height:190px;
+	width:auto;
+	margin:auto;
+	padding-top: 20px;
+}
+.img-center-xlg{
+	display: block;
+	height:350px;
+	width:auto;
+	margin:auto;
+	padding-top: 20px;
+}
+.rounded{
+	border-radius: 10px;
+}
+.header{
+	margin-left: 30px;
+}
+.parallax{ /*--- Parallax Image ---*/
 	height: 500px;
 }
 .footer{
@@ -79,8 +99,15 @@ body{
 .navbar-default .navbar-nav>li>a{
 	color:rgba(41, 128, 185,1.0);
 }
-.jumbotron{
+.parallax{
 	background-image: url("images/nashville-traffic.png");/* parallax image */
+	background-position: 50% 50%;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+.parallax2{
+	background-image: url("images/me.png");/* parallax image */   /*------ Not Used ------*/
 	background-position: 50% 50%;
   	background-repeat: no-repeat;
   	background-attachment: fixed;
@@ -122,12 +149,15 @@ h1, h2, h3, h4{
 		width:70px;
 		height:auto;
 	}
-	.jumbotron{
+	.parallax{
 		height: 300px;
   		background-position: left top;
 	  	background-repeat: no-repeat;
 	  	background-attachment: initial;
 	  	background-size: cover;
+	}
+	.header{
+		margin-left:0px;
 	}
 
 	/*--- END Structure ---*/
@@ -136,5 +166,5 @@ h1, h2, h3, h4{
 	/*--- END Skin ---*/
 }
 
-/*rgba(18, 124, 180, 1)*/
+
 
