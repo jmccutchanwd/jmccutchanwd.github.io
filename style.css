@@ -8,7 +8,9 @@ Project built for NSS Dev Course.
 
 /*--- Structure ---*/
 
-
+p{
+	letter-spacing: 1px;
+}
 .logo{
 	width:120px;
 	height:auto;
@@ -25,6 +27,9 @@ Project built for NSS Dev Course.
 }
 .top-margin{
 	margin-top: 20px;
+}
+.top-padding{
+	padding-top: 20px;
 }
 .margin-zero{
 	margin:0;
@@ -119,7 +124,7 @@ body{
   	background-size: cover;
 }
 .parallax2{
-	background-image: url("images/me.png");/* parallax image */   /*------ Not Used ------*/
+	background-image: url("images/iraqbg.png");/* parallax image */   
 	background-position: 50% 50%;
   	background-repeat: no-repeat;
   	background-attachment: fixed;
