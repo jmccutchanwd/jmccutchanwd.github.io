@@ -58,6 +58,12 @@ Project built for NSS Dev Course.
 	margin:auto;
 	padding-top: 20px;
 }
+.img-ninety{
+	display: block;
+	width:96%;
+	height: auto;
+	margin:auto;
+}
 .rounded{
 	border-radius: 10px;
 }
@@ -77,6 +83,7 @@ h4{
 	width:64px;
 	height: auto;
 }
+
 
 /*--- END Structure ---*/
 
@@ -144,7 +151,7 @@ h1, h2, h3, h4{
 
 
 
-/*--- Break Points ---*/
+/*--- Break Point Styling ---*/
 
 @media (max-width: 776px) {
 	
@@ -167,8 +174,6 @@ h1, h2, h3, h4{
 
 	/*--- END Structure ---*/
 
-	/*--- Skin ---*/
-	/*--- END Skin ---*/
 }
 
 
