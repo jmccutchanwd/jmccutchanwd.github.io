@@ -78,6 +78,9 @@ p{
 .parallax{ /*--- Parallax Image ---*/
 	height: 500px;
 }
+.parallax2{ /*--- Parallax Image ---*/
+	height: 500px;
+}
 .footer{
 	height: 50px;
 }
@@ -176,8 +179,16 @@ h1, h2, h3, h4{
 	.header{
 		margin-left:0px;
 	}
-
+	.parallax2{ /*--- Parallax Image ---*/
+		height: 600px;
+	}
 	/*--- END Structure ---*/
+
+	/*--- Skin ---*/
+
+	
+	/*--- End Skin ---*/
+	
 
 }
 
