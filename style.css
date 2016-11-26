@@ -180,16 +180,29 @@ h1, h2, h3, h4{
 		margin-left:0px;
 	}
 	.parallax2{ /*--- Parallax Image ---*/
-		height: 600px;
+		height: 900px;
 	}
 	/*--- END Structure ---*/
 
-	/*--- Skin ---*/
-
 	
+	/*--- Skin ---*/
 	/*--- End Skin ---*/
 	
 
+}
+
+@media (max-width: 454px) {
+	
+	/*--- Structure ---*/
+
+	.parallax2{ /*--- Parallax Image ---*/
+		height: 600px;
+	}
+	
+	/*--- END Structure ---*/
+
+	/*--- Skin ---*/
+	/*--- End Skin ---*/
 }
 
 
