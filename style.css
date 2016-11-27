@@ -150,7 +150,10 @@ h1, h2, h3, h4{
 	border: 1px inset;
 	padding-top: 5px;
 }
-
+.dark{
+	color:rgba(44, 62, 80,1.0);
+	font-weight: bolder;
+}
 /*--- END Skin ---*/
 
 
